@@ -1,0 +1,31 @@
+{
+  "name": "prettier-config-jgonera",
+  "version": "1.0.0",
+  "description": "Shared Prettier config to accompany eslint-config-jgonera",
+  "main": "prettier.config.js",
+  "type": "module",
+  "scripts": {
+    "deps:check": "ncu",
+    "deps:update": "ncu -u",
+    "format": "prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgonera/prettier-config-jgonera.git"
+  },
+  "author": "Juliusz Gonera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgonera/prettier-config-jgonera/issues"
+  },
+  "homepage": "https://github.com/jgonera/prettier-config-jgonera#readme",
+  "dependencies": {
+    "prettier-plugin-embed": "^0.5.0",
+    "prettier-plugin-sql": "^0.18.1"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^17.1.15",
+    "prettier": "^3.5.2"
+  }
+}
