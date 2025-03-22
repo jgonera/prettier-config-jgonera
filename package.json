@@ -25,7 +25,7 @@
     "prettier-plugin-sql": "^0.18.1"
   },
   "devDependencies": {
-    "npm-check-updates": "^17.1.15",
+    "npm-check-updates": "^17.1.16",
     "prettier": "^3.5.2"
   }
 }
