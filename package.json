@@ -4,6 +4,7 @@
   "description": "Shared Prettier config to accompany eslint-config-jgonera",
   "type": "module",
   "main": "prettier.config.js",
+  "types": "prettier.config.d.ts",
   "scripts": {
     "deps:check": "ncu",
     "deps:update": "ncu -u",
