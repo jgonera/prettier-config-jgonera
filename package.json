@@ -23,7 +23,7 @@
   "homepage": "https://github.com/jgonera/prettier-config-jgonera#readme",
   "dependencies": {
     "prettier-plugin-embed": "^0.5.0",
-    "prettier-plugin-sql": "^0.18.1"
+    "prettier-plugin-sql": "^0.19.1"
   },
   "devDependencies": {
     "npm-check-updates": "^17.1.15",
