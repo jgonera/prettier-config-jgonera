@@ -2,8 +2,8 @@
   "name": "prettier-config-jgonera",
   "version": "1.0.0",
   "description": "Shared Prettier config to accompany eslint-config-jgonera",
-  "main": "prettier.config.js",
   "type": "module",
+  "main": "prettier.config.ts",
   "scripts": {
     "deps:check": "ncu",
     "deps:update": "ncu -u",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "npm-check-updates": "^17.1.15",
-    "prettier": "^3.5.2"
+    "prettier": "^3.5.2",
+    "typescript": "^5.7.3"
   }
 }
