@@ -7,8 +7,8 @@
   "scripts": {
     "deps:check": "ncu",
     "deps:update": "ncu -u",
-    "format": "prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
-    "lint": "prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+    "format": "NODE_OPTIONS=\"--experimental-strip-types\" prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "NODE_OPTIONS=\"--experimental-strip-types\" prettier --check \"./**/*.{cjs,js,json,md,ts}\""
   },
   "repository": {
     "type": "git",
