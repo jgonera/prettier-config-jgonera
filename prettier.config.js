@@ -1,6 +1,5 @@
-import { type Config } from "prettier"
-
-const config: Config = {
+/** @type {import("prettier").Config} */
+const config = {
   semi: false,
   plugins: ["prettier-plugin-embed", "prettier-plugin-sql"],
   // prettier-plugin-sql options
