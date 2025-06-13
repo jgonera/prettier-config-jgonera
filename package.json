@@ -2,13 +2,14 @@
   "name": "prettier-config-jgonera",
   "version": "1.0.0",
   "description": "Shared Prettier config to accompany eslint-config-jgonera",
-  "main": "prettier.config.js",
   "type": "module",
+  "main": "prettier.config.js",
+  "types": "prettier.config.d.ts",
   "scripts": {
     "deps:check": "ncu",
     "deps:update": "ncu -u",
-    "format": "prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
-    "lint": "prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+    "format": "NODE_OPTIONS=\"--experimental-strip-types\" prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "NODE_OPTIONS=\"--experimental-strip-types\" prettier --check \"./**/*.{cjs,js,json,md,ts}\""
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "npm-check-updates": "^17.1.15",
-    "prettier": "^3.5.2"
+    "prettier": "^3.5.2",
+    "typescript": "^5.7.3"
   }
 }

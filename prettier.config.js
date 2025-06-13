@@ -1,4 +1,5 @@
-export default {
+/** @type {import("prettier").Config} */
+const config = {
   semi: false,
   plugins: ["prettier-plugin-embed", "prettier-plugin-sql"],
   proseWrap: "always",
@@ -7,3 +8,5 @@ export default {
   keywordCase: "upper",
   language: "postgresql",
 }
+
+export default config
