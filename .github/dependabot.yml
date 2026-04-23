@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "semianually"
+      interval: "semiannually"
       day: "saturday"
     versioning-strategy: "increase"
     pull-request-branch-name:
